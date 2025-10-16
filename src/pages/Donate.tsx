@@ -75,7 +75,7 @@ const Donate = () => {
                       <h3 className="font-semibold text-foreground mb-2">Account Number</h3>
                       <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 mt-2">
                         <p className="text-sm text-muted-foreground mb-1">Account Number:</p>
-                        <p className="text-xl font-bold text-primary">HOPE2024</p>
+                        <p className="text-xl font-bold text-primary">ELWAK2025</p>
                       </div>
                     </div>
                   </div>

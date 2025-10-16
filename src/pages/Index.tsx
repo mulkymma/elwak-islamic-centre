@@ -49,11 +49,6 @@ const Index = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-              <Link to="/volunteer">
-                <Button size="lg" variant="outline" className="w-full sm:w-auto bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/20">
-                  Become a Volunteer
-                </Button>
-              </Link>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ const Header = () => {
   const navLinks = [
     { path: "/", label: "Home" },
     { path: "/about", label: "About" },
-    { path: "/volunteer", label: "Volunteer" },
+    { path: "/volunteer", label: "Services" },
     { path: "/donate", label: "Donate" },
     { path: "/contact", label: "Contact" },
   ];
@@ -23,11 +23,16 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="bg-primary p-2 rounded-lg group-hover:scale-110 transition-transform">
-              <Heart className="w-5 h-5 text-primary-foreground" fill="currentColor" />
-            </div>
-            <span className="text-xl lg:text-2xl font-bold text-foreground">Hope Foundation</span>
-          </Link>
+  <img
+    src="/public/download.png" // path to your logo inside the public folder
+    alt="Elwak Islamic Centre Logo"
+    className="h-10 w-auto group-hover:scale-105 transition-transform"
+  />
+  <span className="text-xl lg:text-2xl font-bold text-foreground">
+    Elwak Islamic Centre
+  </span>
+</Link>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-1">

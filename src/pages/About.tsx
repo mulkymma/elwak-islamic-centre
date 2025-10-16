@@ -9,7 +9,7 @@ const About = () => {
       <section className="py-16 lg:py-24 bg-gradient-to-br from-secondary to-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">About Hope Foundation</h1>
+            <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">About Elwak islamic Centre</h1>
             <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed">
               For over a decade, we've been dedicated to transforming lives and building resilient communities across Kenya.
             </p>

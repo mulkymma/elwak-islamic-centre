@@ -37,8 +37,7 @@ const Services = () => {
                 </p>
               </CardContent>
             </Card>
-
-            {/* Health */}
+ {/* Health */}
             <Card className="border-border hover:shadow-lg transition-shadow">
               <CardContent className="p-8 text-center">
                 <div className="bg-primary/10 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-5">
@@ -47,11 +46,11 @@ const Services = () => {
                 <h3 className="text-xl font-semibold text-foreground mb-3">Health & Wellness</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Through medical camps and awareness programs, we promote healthcare access,
-                  cleanliness, and mental well-being across the community.
+                  cleanliness, and mental well-being.
                 </p>
               </CardContent>
             </Card>
-
+         
             {/* Faith & Guidance */}
             <Card className="border-border hover:shadow-lg transition-shadow">
               <CardContent className="p-8 text-center">
